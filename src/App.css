@@ -1,0 +1,657 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* my style */
+
+
+.alltextcolor {
+  color: black;
+}
+
+.dropdown-subcategories {
+  cursor: pointer;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.g-4,
+.gy-4 {
+  --bs-gutter-y: 3.5rem !important;
+}
+
+/* my style */
+/* YourComponent.css */
+
+/* Custom style for the success notification */
+.custom-toast {
+  display: flex;
+  align-items: center;
+  background-color: #28a745;
+  /* Background color for the notification */
+  color: #fff;
+  /* Text color for the notification */
+  border-radius: 10px;
+  /* Border radius for rounded corners */
+  padding: 10px;
+  /* Padding for content inside the notification */
+  position: relative;
+  /* Relative positioning for absolute child elements */
+}
+
+/* Custom style for the circle container */
+.icon-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #218838;
+  /* Background color for the circle */
+  border-radius: 50%;
+  /* Border radius for a circular shape */
+  width: 25px;
+  /* Adjust the width of the circle */
+  height: 23px;
+  /* Adjust the height of the circle */
+  margin-right: 10px;
+  /* Margin to create space between the circle and text */
+  position: absolute;
+  /* Absolute positioning relative to the parent .custom-toast */
+  left: 10px;
+  /* Adjust the left position of the circle */
+}
+
+/* Custom style for the icon */
+.icon {
+  color: white;
+  /* Text color for the icon */
+  font-weight: bold;
+
+}
+
+/* .size-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.size-label {
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px  solid ;
+  width: 12%;
+  text-align: center;
+ margin-top: 3%;
+}
+
+
+.size-label:hover {
+  text-decoration: underline;
+} */
+.size-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.size-option {
+  margin-right: 10px;
+  /* Adjust spacing as needed */
+  margin-top: 10px;
+  /* Adjust spacing as needed */
+}
+
+.size-label {
+  cursor: pointer;
+  border: 1px solid;
+  padding: 5px;
+  text-align: center;
+
+}
+
+.size-label.selected {
+  background-color: #007bff;
+  /* Adjust the color for the selected size */
+  color: white;
+  /* Adjust the text color for the selected size */
+}
+
+.size-btn {
+  cursor: pointer;
+  background-color: #28a745;
+  /* Adjust the color for the button */
+  color: white;
+  /* Adjust the text color for the button */
+  border: none;
+  padding: 5px 10px;
+}
+
+.size-btn:hover {
+  background-color: #218838;
+  /* Adjust the color for the button on hover */
+}
+
+
+
+/* Your other styles */
+.rating-and-stars {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: white;
+}
+
+.filled-star {
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 2px;
+  /* Add padding to space out the stars */
+  margin: 0 2px;
+  /* Add margin for spacing between stars */
+}
+
+
+
+
+
+.pagination {
+  display: flex;
+  list-style: none;
+  cursor: pointer;
+  justify-content: right;
+}
+
+.pagination a {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(208, 208, 223);
+  color: #0d0d0e;
+  margin: 5px;
+  text-decoration: none;
+
+}
+
+.pagination__link {
+  font-weight: bold;
+}
+
+.pagination__link--active a {
+  color: white;
+  background: #9c4399;
+}
+
+.pagination__link--disabled a {
+  color: rgb(114, 114, 117);
+  border: 1px solid rgb(198, 197, 202);
+  cursor: not-allowed;
+}
+
+/* .pagination a:hover {
+  background-color: #6c7ac9;
+  color: #fff;
+} */
+
+.pagination__link--previous,
+.pagination__link--next {
+  font-weight: bold;
+  background-color: #eee;
+  width: 20px;
+  /* Adjust width as needed */
+  height: 20px;
+  /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagination__link--previous:hover,
+.pagination__link--next:hover {
+  background-color: #ddd;
+  color: #fff;
+}
+
+/* .pagination__link--active a:hover {
+  background-color: #c03e3e;
+} */
+
+/* Additional styles for the active link on hover */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* your-style-file.css */
+
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.overlaydemo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgb(64, 63, 63));
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.overlaydemo:hover {
+  opacity: 1;
+}
+
+.shop-now-button {
+  background-color: #9c4399;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  display: none;
+  /* Initially hidden */
+}
+
+.overlaydemo:hover .shop-now-button {
+  display: block;
+  /* Show the button on hover */
+}
+
+.zoom-on-hover {
+  transition: transform 0.5s ease;
+
+}
+
+.zoom-on-hover:hover {
+  transform: scale(1.2);
+}
+
+.dd {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.ss {
+
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.addcartbtn {
+  color: #000;
+}
+
+
+
+
+.addtocartmodalbtn {
+  background-color: #9c4399;
+  border-radius: 6px;
+  border: 1px solid #eceff6;
+  float: right;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+.addtocartmodalbtn:hover {
+  color: #eceff6;
+}
+
+.closemodal {
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+}
+
+.closemodal:hover {
+  color: #000;
+}
+
+.table-responsive::-webkit-scrollbar {
+  width: 5px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background-color: rgb(187, 183, 183);
+}
+
+/* Add more styles as needed */
+.submit-button {
+  background-color: black;
+  color: white;
+  /* Add other styles as needed */
+}
+
+.error-text {
+  color: red;
+  /* Add other styles as needed */
+}
+
+/* .tablecheckout{
+  max-height: 350px; 
+  overflow-y: auto;
+  display: block;
+} */
+.overfloechaneg {
+  max-height: 310px !important;
+  overflow-y: auto !important;
+}
+
+/* Add this to your CSS or style attribute */
+
+/* Add this to your CSS or style attribute */
+/* Add this to your CSS or style attribute */
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 76%;
+}
+
+
+
+.main { 
+  text-align: center; 
+} 
+
+.marq { 
+  padding-top: 5px; 
+  padding-bottom: 5px; 
+} 
+
+.geek1 { 
+  font-size: 36px; 
+  font-weight: bold; 
+  color: white; 
+  /* padding-bottom: 10px;  */
+} 
+/* step css */
+
+
+/* Add this style to your CSS or stylesheet */
+.active-breadcrumb {
+  color: green; /* Set the color to red or any other color you prefer */
+}
+
+
+
+.otp-field {
+  flex-direction: row;
+  column-gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.otp-field input {
+  height: 45px;
+  width: 42px;
+  border-radius: 6px;
+  outline: none;
+  font-size: 1.125rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+.otp-field input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.otp-field input::-webkit-inner-spin-button,
+.otp-field input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.resend {
+  font-size: 12px;
+}
+
+.footer {
+  position: absolute;
+  /* bottom: 10px; */
+  right: 10px;
+  color: black;
+  font-size: 12px;
+  text-align: right;
+  font-family: monospace;
+}
+
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+/* styles.css */
+.breadcrumb-item {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #007bff; /* Change color as needed */
+}
+
+.breadcrumb-item a.active {
+  color: #6c757d; /* Change color as needed */
+}
+
+.text-muted {
+  color: #6c757d; /* Change color as needed */
+}
+
+.hovercolorchnage{
+  color:black
+}
+:hover.hovercolorchnage{
+  color: #9c4399;
+}
+
+
+.card{
+	background-color: #fff;
+	border:none;
+	border-radius: 10px;
+	width: 100%;
+ 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-top: 30px;
+
+}
+
+.image-container{
+	position: relative;
+}
+
+.thumbnail-image{
+	/* border-radius: 10px !important; */
+  height: 293px;
+  object-fit: cover;
+}
+
+
+
+
+.dress-name{
+	font-size: 16px;
+  color: #9c4399;
+	font-weight: bold;
+  text-align: center;
+  /* padding-top: 5px; */
+  cursor: pointer;
+}
+
+.dress-name:hover{
+color: #000;
+cursor: pointer;
+}
+.activenavbar{
+  color: #9c4399  ;
+}
+
+
+.thumbnail-image {
+  height: 293px;
+  object-fit: cover;
+  /* Add any additional base styles here */
+}
+
+/* Media query for small screens (sm) */
+@media (max-width: 576px) {
+  .thumbnail-image {
+    height: 200px; /* Adjust height for small screens */
+  }
+}
+
+/* Media query for medium screens (md) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .thumbnail-image {
+    height: 322px;
+    width: 246px;
+  }
+}
+
+/* Media query for large screens (lg) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .thumbnail-image {
+    height: 275px; /* Adjust height for large screens */
+  }
+}
+
+/* Media query for extra large screens (xl) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .thumbnail-image {
+    height: 293px; /* Adjust height for extra large screens */
+  }
+}
+
+/* Media query for extra extra large screens (xxl) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .thumbnail-image {
+    height: 279px; /* Adjust height for extra extra large screens */
+  }
+}
+
+/* Media query for very large screens (muje) */
+@media (min-width: 1400px) {
+  .thumbnail-image {
+    height: 350px; /* Adjust height for very large screens */
+  }
+}
+/* @media (max-width: 576px) {
+  #serviceslider {
+    display: none;
+  }
+} */
+
+/* Media query for 768px screen */
+/* @media (max-width: 768px) {
+  .slick-track {
+    opacity: 1!important;
+    transform: translate3d(0px, 0px, 0px)!important;
+    width: 446px!important;
+  }
+} */
+
+
+
+
+
+/* Base styles (for all screen sizes) */
+.subcategories-container {
+  /* Base styles for the container */
+  padding: 10px;
+  border: 5px solid #9c4399;
+}
+
+/* Extra small (xs) screen - Less than 576px */
+@media (max-width: 575px) {
+  .subcategories-container {
+    /* Styles for xs screens */
+    width: 100%; /* Full width */
+  }
+}
+
+/* Small (sm) screen - 576px and up */
+@media (min-width: 576px) {
+  .subcategories-container {
+    /* Styles for sm screens */
+    width: 80%; /* Increase width to 80% */
+  }
+}
+
+/* Medium (md) screen - 768px and up */
+@media (min-width: 768px) {
+  .subcategories-container {
+    /* Styles for md screens */
+    width: 60%; /* Decrease width slightly */
+  }
+}

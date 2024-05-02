@@ -1,0 +1,27 @@
+/* Custom styles for your application */
+
+/* Media query for screens between 768px and 576px */
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Adjust image heights */
+    .img-height-sm,
+    .img-height-md,
+    .img-height-lg,
+    .img-height-xl,
+    .img-height-xxl {
+      height: 400px; /* Adjust the height as desired */
+    }
+    
+    /* Additional styles for the container */
+    .container {
+      padding: 0 15px; /* Adjust padding if needed */
+    }
+    
+    /* Add other styles as needed */
+    /* For example, you might adjust the width or padding of the slider */
+    .slider {
+      /* Example of adjusting width and padding */
+      width: 100%;
+      padding: 0;
+    }
+  }
+  

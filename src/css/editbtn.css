@@ -1,0 +1,16 @@
+.edit-address-button {
+    background-color: green; /* Set the background color of the button to blue */
+    color: white; /* Set the text color of the button to white */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Add border radius to the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  .edit-address-button:hover {
+    opacity: 0.8; /* Reduce opacity of button on hover */
+  }
+  
+  /* .edit-icon {
+    margin-right: 5px; Add margin to the right of the edit icon
+  } */
+  

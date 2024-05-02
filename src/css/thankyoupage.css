@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+.card {
+    border: none
+}
+
+.logo {
+    background-color: #eeeeeea8
+}
+
+.totals tr td {
+    font-size: 13px
+}
+
+.footer {
+    background-color: #eeeeeea8
+}
+
+.footer span {
+    font-size: 12px
+}
+
+.product-qty span {
+    font-size: 12px;
+    color: #dedbdb
+}
+
+.parent {
+   
+    /* margin: 1rem; */
+    /* padding: 2rem 2rem; */
+    text-align: center;
+  }
+  .child {
+    display: inline-block;
+    /* border: 1px solid red; */
+    /* padding: 1rem 1rem; */
+    vertical-align: middle;
+  }
+  .logo-img {
+    width: 80px; /* Default width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+@media (min-width: 576px) {
+    .logo-img {
+        width: 80px; /* Width for small screens (sm) */
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-img {
+        width: 100px; /* Width for medium screens (md) */
+    }
+}
+
+@media (min-width: 992px) {
+    .logo-img {
+        width: 120px; /* Width for large screens (lg) */
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-img {
+        width: 140px; /* Width for extra large screens (xl) */
+    }
+}
+
+@media (min-width: 1400px) {
+    .logo-img {
+        width: 110px; /* Width for extra extra large screens (xxl) */
+    }
+}

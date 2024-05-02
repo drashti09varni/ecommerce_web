@@ -1,0 +1,40 @@
+/* orderhistory.css */
+.order-history-item .product-info {
+    display: flex;
+    align-items: center;
+    background-color: red;
+  }
+  
+  .order-history-item .product-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .order-history-item .product-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order-history-item .product-name {
+    font-weight: bold;
+  }
+  
+  .order-history-item .product-price,
+  .order-history-item .product-quantity,
+  .order-history-item .product-time {
+    font-size: 0.9em;
+  }
+  
+  .product-card {
+
+    color: #fff; /* White text color */
+  }
+  
+  .product-header {
+   
+  }
+  
+  .product-list-item {
+  }
+  

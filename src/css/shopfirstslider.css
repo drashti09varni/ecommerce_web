@@ -1,0 +1,21 @@
+/* Starting from 576px */
+@media (min-width: 576px) {
+    .mt-sm-5 {
+        margin-top: 5rem !important;
+    }
+}
+
+/* Starting from 768px */
+@media (min-width: 768px) {
+    .mt-md-5 {
+        margin-top: 7rem !important;
+    }
+}
+
+/* Up to 991px */
+@media (max-width: 991px) {
+    .mt-sm-and-below {
+        margin-top: 6rem !important;
+    }
+}
+

@@ -1,0 +1,139 @@
+
+ /* .close {
+  color: white;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+   */
+  
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 1); */
+    display: flex;
+    border: none !important;
+    ;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  
+  .modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    /* overflow: hidden; */
+    position: relative;
+    text-align: center;
+    margin-top: 160px;
+  }
+  
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modaldata {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+  
+    outline: 0;
+  }
+  
+
+  
+  .close-btn {
+      float: right;
+      cursor: pointer;
+  }
+  
+  /* .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  } */
+  
+
+  
+/* Styles for small devices (sm: 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .page-header img {
+      height: 144px;
+      margin-top: 112px;
+  }
+}
+
+/* Styles for medium devices (md: 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .page-header img {
+      height: 166px;
+      margin-top: 110px;
+  }
+}
+
+/* Styles for large devices (lg: 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .page-header img {
+      height: 194px;
+      margin-top: 153px;
+  }
+}
+
+/* Styles for extra-large devices (xl: 1200px to 1399px) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .page-header img {
+      height: 212px;
+      margin-top: 153px;
+  }
+}
+
+/* Styles for extra-extra-large devices (xxl: 1400px and up) */
+@media (min-width: 1400px) {
+  .page-header img {
+      height: 200px;
+      margin-top: 153px;
+  }
+}
+
+

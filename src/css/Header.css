@@ -1,0 +1,44 @@
+@media only screen and (max-width: 367px) {
+    /* Replace '.your-button-class' with the actual class of your button */
+    .navbar-toggler {
+        padding: -0.75rem .75rem!important;
+        font-size: 1.25rem!important;
+        line-height: 1!important;
+        background-color: rgba(0, 0, 0, 0)!important;
+        border: 1px solid rgba(0, 0, 0, 0)!important;
+        border-radius: 10px!important;
+        transition: box-shadow .15s ease-in-out!important;
+    }
+    /* If you have other elements you want to style for small screens, add them here */
+    /* For example, to adjust navbar height: */
+    .navbar {
+      height: auto;
+    }
+  
+    /* Adjust navbar brand image size */
+    .navbar-brand img {
+      width: auto; /* Adjust width as needed */
+      max-height: 40px; /* Adjust max height as needed */
+    }
+  
+    /* Adjust the layout of navbar items */
+    .custom-navbar-nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    /* Any additional styles for responsiveness */
+  }
+
+  /* h4 titile resposive */
+  @media (max-width: 412px) and (max-height: 869px) {
+    .mt-custom-412x869 {
+        margin-top: 3rem; /* Customize the value of margin top as needed */
+    }
+}
+
+@media (max-width: 414px) and (max-height: 896px) {
+    .mt-custom-414x896 {
+        margin-top: 3rem; /* Customize the value of margin top as needed */
+    }
+}
